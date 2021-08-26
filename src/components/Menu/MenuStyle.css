@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.item-menu {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.item-menu a {
+    color: white;
+    text-decoration: none;
+}
+.green a { 
+    color: yellowgreen;
+}
+.item-menu a:hover {
+    color: yellowgreen;
+}

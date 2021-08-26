@@ -1,0 +1,21 @@
+
+.body {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+}
+.logo {
+    justify-content: center;
+    
+}
+
+
+.header-row {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-bottom: 1px thin white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}

@@ -1,0 +1,50 @@
+.main-title {
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+    padding-bottom: 25px;
+    
+    line-height: 65px;
+
+}
+.main-title + p {
+    color: yellowgreen;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    line-height: 25px;
+   
+    
+}
+.btn-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.btn {
+    width: 190px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border: solid rgba(48, 60, 42) 1px;
+    border-radius: 4px;
+}
+.read-more {
+    margin-right: 20px;
+}
+
+
+.fa-arrow-alt-circle-right {
+    padding-left: 5px;
+}
+.fa-book {
+    padding-left: 5px;
+}
+
+.btn:hover {
+    background-color: #81a029;
+}
