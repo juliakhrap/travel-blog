@@ -1,0 +1,15 @@
+.necessery-items h3 {
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'PT Serif', sans-serif;
+}
+.necessery-items p {
+    width: 83%;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,13 @@
+.title-video {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+}
+.video-img {
+    width: 65%;
+    height: auto;
+}

@@ -1,0 +1,40 @@
+.gallery-text {
+    display: flex;
+    justify-content: center;
+}
+.gallery-text p {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+p span {
+    color: #81a029;
+}
+.buttons-in-gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.btn {
+    width: 150px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+}
+.show-photos i, .instagram i {
+    color: #81a029;
+    padding-left: 5px;
+}
+.btn:hover button i:hover {
+    color: white;
+}
+.show-photos {
+    margin-right: 20px;
+}
+.travel-img {
+    width: 100%;
+}

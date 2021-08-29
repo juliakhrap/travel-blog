@@ -1,0 +1,28 @@
+.mini-title {
+    width: 160px;
+    height: 20px;
+    margin-top: 80px;
+}
+.wanderer-description {
+    padding-top: 30px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+li a {
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    line-height: 35px;
+    text-decoration: none;
+}
+li a:hover, .authors a:hover {
+    color: #81a029;
+    border-bottom: solid 2px  #81a029;;
+}
+.fa-angle-right {
+    color: #81a029;
+    padding-right: 5px;
+}

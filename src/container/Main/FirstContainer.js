@@ -23,7 +23,7 @@ const FirstContainer = () => {
                 <div className="col-xs-12">
                     <div className="btn-row">
                         <button type="submit" className="btn read-more">
-                            Read more{' '}
+                            Read more
                             <i class="far fa-arrow-alt-circle-right"></i>
                         </button>
                         <button type="submit" className="btn my-blog">
