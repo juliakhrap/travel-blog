@@ -1,12 +1,18 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
 import './FooterStyle.css'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import TwitterIcon from '@material-ui/icons/Twitter'
+import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled'
+import CloudIcon from '@material-ui/icons/Cloud'
+import InstagramIcon from '@material-ui/icons/Instagram'
+import '../../container/Grid.css'
 
 const Footer = () => {
     return (
         <>
             <div className="footer">
-                <Container>
+                <Container className="container">
                     <div className="row">
                         <div className="col-xs-12 col-md-9">
                             <div className="authors">
@@ -25,19 +31,19 @@ const Footer = () => {
                         <div className="col-xs-12 col-md-3">
                             <div className="social-icons">
                                 <a href="" className="icons">
-                                    <i className="fab fa-facebook-square"></i>
+                                    <FacebookIcon className="fab fa-facebook-square" />
                                 </a>
                                 <a href="" className="icons">
-                                    <i className="fab fa-twitter"></i>
+                                    <TwitterIcon className="fab fa-twitter" />
                                 </a>
                                 <a href="" className="icons">
-                                    <i className="fas fa-play"></i>
+                                    <PlayCircleFilledIcon className="fas fa-play" />
                                 </a>
                                 <a href="" className="icons">
-                                    <i className="fab fa-flickr"></i>
+                                    <CloudIcon className="fab fa-flickr" />
                                 </a>
                                 <a href="" className="icons">
-                                    <i className="fab fa-instagram"></i>
+                                    <InstagramIcon className="fab fa-instagram" />
                                 </a>
                             </div>
                         </div>

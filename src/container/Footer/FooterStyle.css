@@ -22,3 +22,6 @@
 .icons:hover {
     color: #a9ca4d;
 }
+li  {
+    list-style-type: none;
+}

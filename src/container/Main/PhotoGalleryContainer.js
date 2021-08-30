@@ -1,11 +1,14 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
 import './PhotoGalleryStyle.css'
+import InstagramIcon from '@material-ui/icons/Instagram'
+import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary'
+import '../../container/Grid.css'
 
 const PhotoGalleryContainer = () => {
     return (
         <>
-            <Container>
+            <Container className="container">
                 <div className="row">
                     <div className="col-xs-12">
                         <div className="title-video">Photo gallery</div>
@@ -24,12 +27,13 @@ const PhotoGalleryContainer = () => {
                     </div>
                     <div className="col-xs-12">
                         <div className="buttons-in-gallery">
-                            <button type="submit" class="btn show-photos">
+                            <button type="submit" className="btn show-photos">
                                 Show photos{' '}
-                                <i class="far fa-arrow-alt-circle-right"></i>
+                                <PhotoLibraryIcon className="far fa-arrow-alt-circle-right" />
                             </button>
-                            <button type="submit" class="btn instagram">
-                                Instagram <i class="fab fa-instagram"></i>
+                            <button type="submit" className="btn instagram">
+                                Instagram{' '}
+                                <InstagramIcon className="fab fa-instagram" />
                             </button>
                         </div>
                     </div>

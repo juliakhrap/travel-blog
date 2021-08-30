@@ -3,11 +3,12 @@ import React from 'react'
 import './AlpsContainerStyle.css'
 import 'font-awesome/css/font-awesome.min.css'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
+import '../../container/Grid.css'
 
 const AlpsContainer = () => {
     return (
-        <Container>
-            <div class="row">
+        <Container className="container">
+            <div className="row">
                 <div className="col-xs-12 col-md-6">
                     <img
                         src="images/home_behind_pic1.jpg"
@@ -29,7 +30,6 @@ const AlpsContainer = () => {
                             turpis velit, rhoncus eu, luctus et interdum
                             adipiscing wisi.
                         </p>
-
                         <p className="alps-description">
                             <img
                                 src="images/check.png"
@@ -37,7 +37,7 @@ const AlpsContainer = () => {
                                 className="check-pic"
                             />
                             Quisque lorem tortor fringilla sed
-                        </p>
+                        </p>{' '}
                         <p className="alps-description">
                             <img
                                 src="images/check.png"
@@ -47,7 +47,6 @@ const AlpsContainer = () => {
                             Vestibulum id, eleifend justo vel bibendum sapien
                             massa
                         </p>
-
                         <button type="submit" className="booking">
                             Book tour
                             <ArrowForwardIosIcon

@@ -1,29 +1,35 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
+import { Fade } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
 import './SliderContainerStyle.css'
+import '../../container/Grid.css'
 
-const SliderContainer = () => {
+const fadeImages = [
+    'images/home_behind_pic6.jpg',
+    'images/home_behind_pic7.jpg',
+    'images/home_behind_pic8.jpg',
+]
+
+export default function App() {
     return (
-        <>
-            <Container>
-                <div className="row">
-                    <div className="col-xs-12">
-                        <div className="title-video">Video</div>
+        <Container className="container">
+            <div className="col-xs-12">
+                <div class="title-video">Videos</div>
+            </div>
+            <div className="slide-container">
+                <Fade>
+                    <div className="each-fade">
+                        <img src={fadeImages[0]} className="pic-item" />
                     </div>
-                    <div className="col-xs-12">
-                        <a href="" class="video-link">
-                            <img
-                                src="images/home_behind_pic6.jpg"
-                                alt=""
-                                width="700px"
-                                height="430px"
-                                class="video-img"
-                            />
-                        </a>
+                    <div className="each-fade">
+                        <img src={fadeImages[1]} className="pic-item" />
                     </div>
-                </div>
-            </Container>
-        </>
+                    <div className="each-fade">
+                        <img src={fadeImages[2]} className="pic-item" />
+                    </div>
+                </Fade>
+            </div>
+        </Container>
     )
 }
-export default SliderContainer

@@ -1,6 +1,7 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
 import './LastContainerStyle.css'
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
 
 const LastContainer = () => {
     return (
@@ -26,19 +27,19 @@ const LastContainer = () => {
                     <div className="col-xs-12 col-md-3">
                         <ul>
                             <li>
-                                <i className="fas fa-angle-right"></i>
+                                <ArrowForwardIosIcon className="fas fa-angle-right" />
                                 <a href="" className="list">
                                     Morbi accum
                                 </a>
                             </li>
                             <li>
-                                <i className="fas fa-angle-right"></i>
+                                <ArrowForwardIosIcon className="fas fa-angle-right" />
                                 <a href="" className="list">
                                     Nam tellus
                                 </a>
                             </li>
                             <li>
-                                <i className="fas fa-angle-right"></i>
+                                <ArrowForwardIosIcon className="fas fa-angle-right" />
                                 <a href="" className="list">
                                     Class taciti velit
                                 </a>
@@ -48,19 +49,19 @@ const LastContainer = () => {
                     <div class="col-xs-12 col-md-3">
                         <ul>
                             <li>
-                                <i className="fas fa-angle-right"></i>
+                                <ArrowForwardIosIcon className="fas fa-angle-right" />
                                 <a href="" className="list">
                                     Class taciti velit
                                 </a>
                             </li>
                             <li>
-                                <i className="fas fa-angle-right"></i>
+                                <ArrowForwardIosIcon className="fas fa-angle-right" />
                                 <a href="" className="list">
                                     Mauris justo
                                 </a>
                             </li>
                             <li>
-                                <i className="fas fa-angle-right"></i>
+                                <ArrowForwardIosIcon className="fas fa-angle-right" />
                                 <a href="" className="list">
                                     Morbi accum
                                 </a>

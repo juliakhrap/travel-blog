@@ -3,11 +3,14 @@ import React from 'react'
 import './ArticleContainerStyle.css'
 import PersonIcon from '@material-ui/icons/Person'
 import AccessTimeIcon from '@material-ui/icons/AccessTime'
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import DescriptionIcon from '@material-ui/icons/Description'
+import '../../container/Grid.css'
 
 const ArticleContainer = () => {
     return (
         <>
-            <Container>
+            <Container className="container">
                 <div className="row">
                     <div className="col-xs-12">
                         <div className="news-title">Last news</div>
@@ -36,8 +39,7 @@ const ArticleContainer = () => {
                                     </a>{' '}
                                     <span className="data">
                                         {' '}
-                                        at
-                                        <AccessTimeIcon /> December 20, 2017
+                                        at <AccessTimeIcon /> December 20, 2017
                                     </span>
                                 </div>
                                 <div className="news-text">
@@ -56,11 +58,11 @@ const ArticleContainer = () => {
                                 </div>
                                 <div className="like-row">
                                     <div className="likes-number">
-                                        <i className="far fa-heart"></i>
+                                        <FavoriteBorderIcon className="far fa-heart" />
                                         <span className="number">60</span>
                                     </div>
                                     <div className="read-mr">
-                                        <i class="far fa-file-alt"></i>
+                                        <DescriptionIcon className="far fa-file-alt" />
                                         <a href="">Read more</a>
                                     </div>
                                 </div>
@@ -89,8 +91,7 @@ const ArticleContainer = () => {
                                     </a>{' '}
                                     <span className="data">
                                         {' '}
-                                        at
-                                        <AccessTimeIcon /> {''}
+                                        at <AccessTimeIcon /> {''}
                                         December 20, 2017
                                     </span>
                                 </div>
@@ -110,11 +111,11 @@ const ArticleContainer = () => {
                                 </div>
                                 <div className="like-row">
                                     <div className="likes-number">
-                                        <i className="far fa-heart"></i>
+                                        <FavoriteBorderIcon className="far fa-heart" />
                                         <span className="number">60</span>
                                     </div>
                                     <div className="read-mr">
-                                        <i className="far fa-file-alt"></i>
+                                        <DescriptionIcon className="far fa-file-alt" />
                                         <a href="">Read more</a>
                                     </div>
                                 </div>
@@ -143,8 +144,7 @@ const ArticleContainer = () => {
                                     </a>{' '}
                                     <span className="data">
                                         {' '}
-                                        at
-                                        <AccessTimeIcon /> December 20, 2017
+                                        at <AccessTimeIcon /> December 20, 2017
                                     </span>
                                 </div>
                                 <div className="news-text">
@@ -164,11 +164,11 @@ const ArticleContainer = () => {
                                 </div>
                                 <div className="like-row">
                                     <div className="likes-number">
-                                        <i className="far fa-heart"></i>
+                                        <FavoriteBorderIcon className="far fa-heart" />
                                         <span className="number">60</span>
                                     </div>
                                     <div className="read-mr">
-                                        <i className="far fa-file-alt"></i>
+                                        <DescriptionIcon className="far fa-file-alt" />
                                         <a href="">Read more</a>
                                     </div>
                                 </div>

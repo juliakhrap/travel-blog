@@ -51,6 +51,12 @@
     .main-title + p {
         padding-bottom: 1px;
     }
+    .news-image {
+        width: 310px;
+    }
+    article {
+        padding-left: 10px;
+    }
 }
     
 @media(min-width:768px) {

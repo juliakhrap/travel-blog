@@ -1,11 +1,12 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
 import './WYNeedContainerStyle.css'
+import '../../container/Grid.css'
 
 const WYNeedContainer = () => {
     return (
         <>
-            <Container>
+            <Container className="container">
                 <div className="row">
                     <div className="col-xs-12">
                         <div className="news-title">What you need?</div>
