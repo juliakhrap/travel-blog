@@ -13,7 +13,7 @@ const LastContainer = () => {
                             <img
                                 src="images/logo.png"
                                 alt=""
-                                class="mini-title"
+                                className="mini-title"
                             />
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const LastContainer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-xs-12 col-md-3">
+                    <div className="col-xs-12 col-md-3">
                         <ul>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />

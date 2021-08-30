@@ -15,7 +15,7 @@ export default function App() {
     return (
         <Container className="container">
             <div className="col-xs-12">
-                <div class="title-video">Videos</div>
+                <div className="title-video">Videos</div>
             </div>
             <div className="slide-container">
                 <Fade>

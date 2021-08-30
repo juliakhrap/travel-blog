@@ -10,7 +10,7 @@ import '../../container/Grid.css'
 const Article3 = () => {
     return (
         <>
-            <Container>
+            <Container className="container">
                 <article>
                     <div className="news-img">
                         <a href="">
