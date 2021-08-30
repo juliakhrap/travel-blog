@@ -41,7 +41,7 @@
         flex-wrap: wrap;
     }
     .social-icons {
-        padding-top: 7px;
+        padding-top: 1px;
         text-align: center;
     }
     article {
@@ -57,9 +57,21 @@
     article {
         padding-left: 10px;
     }
+    .authors {
+        font-size: 14px;
+    }
+    .wanderer-description {
+        padding-bottom: 10px;
+    }
+    
+    .btn {
+        font-size: 15px;
+    }
+    
 }
     
 @media(min-width:768px) {
+    
     .menu {
         justify-content: flex-end;
     }
@@ -112,8 +124,20 @@
     .main-title {
         padding-top: 50px;
     }
+    .authors {
+        font-size: 17px;
+ 
+    }
+    .wanderer-description {
+        padding-bottom: 40px;
+    }
+    .btn {
+        font-size: 17px;
+    }
+    
 }
 @media(min-width:992px) {
+    
     .container { 
         max-width: 960px;  
       }
@@ -157,12 +181,17 @@
         background-size: 116%;
     }
     .social-icons {
-        padding-top: 14%;
+        padding-top: 11%;
     }
     .main-title {
         padding-top: 100px;
     }
-    
+    .alps-description, .title-alps, .title-alps +h6 {
+        padding-left: 50px;
+    }
+    .booking {
+        margin-left: 50px;
+    }
     
 }
 @media(min-width:1200px) {

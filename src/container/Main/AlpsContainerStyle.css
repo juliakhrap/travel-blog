@@ -1,7 +1,4 @@
-.text {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .img-way {
     width: 100%;
     height: auto;
@@ -13,13 +10,12 @@
     letter-spacing: 0px;
     font-family: 'PT Serif', sans-serif;
     text-align: left;
-    padding-left: 50px;
+   
 }
 .title-alps +h6 {
     font-family: 'Yantramanav', sans-serif;
     font-size: 13px;
     color: #81a029;
-    padding-left: 50px;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -27,11 +23,9 @@
     font-family: 'Yantramanav', sans-serif;
     font-size: 17px;
     color: white;
-    padding-left: 50px;
     line-height: 25px;
 }
 .booking {
-    margin-left: 50px;
     margin-top: 20px;
     width: 135px;
     height: 45px;

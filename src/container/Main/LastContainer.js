@@ -6,7 +6,7 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
 const LastContainer = () => {
     return (
         <>
-            <Container>
+            <Container className="container">
                 <div className="row">
                     <div className="col-xs-12">
                         <div className="title-with-text">

@@ -24,18 +24,29 @@ p span {
     background-color: transparent;
     color: white;
     font-family: 'Yantramanav', sans-serif;
-    font-size: 17px;
+    
+    
 }
-.show-photos i, .instagram i {
-    color: #81a029;
+
+
+.fa-instagram, .fa-arrow-alt-circle-right {
     padding-left: 5px;
 }
 .btn:hover button i:hover {
     color: white;
 }
 .show-photos {
+    display: flex;
+    align-items: center;
     margin-right: 20px;
+    padding-left: 15px;
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
 }
 .travel-img {
     width: 100%;
 }
+
