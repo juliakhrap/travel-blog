@@ -9,13 +9,14 @@
     padding-right: 15px;
     
 }
-.item-menu a {
+.item-menu button {
     color: white;
     text-decoration: none;
+    text-transform: capitalize;
 }
-.green a { 
+.green button { 
     color: yellowgreen;
 }
-.item-menu a:hover {
+.item-menu button:hover {
     color: yellowgreen;
 }

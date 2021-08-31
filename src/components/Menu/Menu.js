@@ -1,6 +1,7 @@
 import React from 'react'
 import './MenuStyle.css'
 import '../../container/Grid.css'
+import { Button } from '@material-ui/core'
 
 const Menu = () => {
     return (
@@ -8,22 +9,22 @@ const Menu = () => {
             <div className="col-xs-12 col-sm-8">
                 <nav className="menu">
                     <div className="item-menu green">
-                        <a href="">Home</a>
+                        <Button>Home</Button>
                     </div>
                     <div className="item-menu">
-                        <a href="">About me</a>
+                        <Button>About me</Button>
                     </div>
                     <div className="item-menu">
-                        <a href="">Blog</a>
+                        <Button>Blog</Button>
                     </div>
                     <div className="item-menu">
-                        <a href="">Single article</a>
+                        <Button>Single article</Button>
                     </div>
                     <div className="item-menu">
-                        <a href="">Gallery</a>
+                        <Button>Gallery</Button>
                     </div>
                     <div className="item-menu">
-                        <a href="">Buy now</a>
+                        <Button>Buy now</Button>
                     </div>
                 </nav>
             </div>

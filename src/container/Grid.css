@@ -67,6 +67,9 @@
     .btn {
         font-size: 15px;
     }
+    .footer {
+        height: 150px;
+    }
     
 }
     
@@ -204,5 +207,7 @@
     .get-out-container {
         height: 700px;
     }
-    
+    .footer {
+        height: 80px;
+    }
 }

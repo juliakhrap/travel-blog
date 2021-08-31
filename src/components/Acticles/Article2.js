@@ -1,4 +1,4 @@
-import { Container } from '@material-ui/core'
+import { Container, Button } from '@material-ui/core'
 import React from 'react'
 import './ArticleStyle.css'
 import PersonIcon from '@material-ui/icons/Person'
@@ -13,7 +13,7 @@ const Article2 = () => {
             <Container className="container">
                 <article>
                     <div className="news-img">
-                        <a href="">
+                        <Button>
                             <div className="news-image">
                                 <img
                                     src="images/home_behind_blog2-960x720.jpg"
@@ -23,14 +23,11 @@ const Article2 = () => {
                                     className="news-image"
                                 />
                             </div>
-                        </a>
+                        </Button>
                     </div>
                     <div className="user-data">
                         <PersonIcon className="user-icon" />
-                        <a href="" className="user">
-                            {' '}
-                            Muffin Group
-                        </a>{' '}
+                        <Button className="user"> Muffin Group</Button>{' '}
                         <span className="data">
                             {' '}
                             at <AccessTimeIcon /> {''}
@@ -38,9 +35,9 @@ const Article2 = () => {
                         </span>
                     </div>
                     <div className="news-text">
-                        <a href="" className="article-title">
+                        <div className="article-title">
                             Nulla ipsum dolor lacus
-                        </a>
+                        </div>
                         <p>
                             Lorem ipsum dolor sit amet enim. Etiam ullamcorper.
                             Suspendisse a pellentesque dui, non felis. Maecenas
@@ -56,7 +53,7 @@ const Article2 = () => {
                         </div>
                         <div className="read-mr">
                             <DescriptionIcon className="far fa-file-alt" />
-                            <a href="">Read more</a>
+                            <Button className="button-read">Read more</Button>
                         </div>
                     </div>
                 </article>

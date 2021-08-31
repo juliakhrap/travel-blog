@@ -17,12 +17,13 @@ article {
     position: relative;
     left: 5%;
 }
-.user {
+.user-data .user {
     text-decoration: none;
     border-bottom-width: 1px;
     font-family: 'Yantramanav', sans-serif;
     font-size: 16px;
     color: grey;
+    text-transform: capitalize;
 }
 .user-icon {
     color: grey;
@@ -95,14 +96,15 @@ article {
 .read-mr {
     padding-right: 20px;
 }
-.read-mr a {
+.read-mr .button-read {
     color: #81a029;
     text-decoration: none;
     font-family: 'Yantramanav', sans-serif;
     font-size: 17px;
     border-bottom: solid 2px transparent;
+    text-transform: capitalize;
 }
-.read-mr a:hover {
+.read-mr button:hover {
     border-bottom: solid 2px #81a029;
 }
 .fa-file-alt {

@@ -1,4 +1,4 @@
-import { Container } from '@material-ui/core'
+import { Button, Container } from '@material-ui/core'
 import React from 'react'
 import './LastContainerStyle.css'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
@@ -28,21 +28,17 @@ const LastContainer = () => {
                         <ul>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />
-                                <a href="" className="list">
-                                    Morbi accum
-                                </a>
+                                <Button className="list">Morbi accum</Button>
                             </li>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />
-                                <a href="" className="list">
-                                    Nam tellus
-                                </a>
+                                <Button className="list">Nam tellus</Button>
                             </li>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />
-                                <a href="" className="list">
+                                <Button className="list">
                                     Class taciti velit
-                                </a>
+                                </Button>
                             </li>
                         </ul>
                     </div>
@@ -50,21 +46,17 @@ const LastContainer = () => {
                         <ul>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />
-                                <a href="" className="list">
+                                <Button className="list">
                                     Class taciti velit
-                                </a>
+                                </Button>
                             </li>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />
-                                <a href="" className="list">
-                                    Mauris justo
-                                </a>
+                                <Button className="list">Mauris justo</Button>
                             </li>
                             <li>
                                 <ArrowForwardIosIcon className="fas fa-angle-right" />
-                                <a href="" className="list">
-                                    Morbi accum
-                                </a>
+                                <Button className="list">Morbi accum</Button>
                             </li>
                         </ul>
                     </div>

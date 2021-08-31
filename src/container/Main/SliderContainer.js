@@ -20,13 +20,13 @@ export default function App() {
             <div className="slide-container">
                 <Fade>
                     <div className="each-fade">
-                        <img src={fadeImages[0]} className="pic-item" />
+                        <img src={fadeImages[0]} alt="" className="pic-item" />
                     </div>
                     <div className="each-fade">
-                        <img src={fadeImages[1]} className="pic-item" />
+                        <img src={fadeImages[1]} alt="" className="pic-item" />
                     </div>
                     <div className="each-fade">
-                        <img src={fadeImages[2]} className="pic-item" />
+                        <img src={fadeImages[2]} alt="" className="pic-item" />
                     </div>
                 </Fade>
             </div>

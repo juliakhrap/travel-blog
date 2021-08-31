@@ -1,4 +1,4 @@
-import { Container } from '@material-ui/core'
+import { Button, Container } from '@material-ui/core'
 import React from 'react'
 import Menu from '../../components/Menu/Menu'
 import './HeaderStyle.css'
@@ -12,12 +12,13 @@ const Header = () => {
                     <div className="row header-row">
                         <div className="col-xs-12 col-sm-4">
                             <div className="logo">
-                                <a href="">
+                                <Button>
                                     <img
                                         src="../../images/logo.png"
+                                        alt=""
                                         width="160px"
                                     ></img>
-                                </a>
+                                </Button>
                             </div>
                         </div>
                         <Menu />

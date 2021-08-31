@@ -1,4 +1,4 @@
-import { Container } from '@material-ui/core'
+import { Container, Button } from '@material-ui/core'
 import React from 'react'
 import './ArticleStyle.css'
 import PersonIcon from '@material-ui/icons/Person'
@@ -13,7 +13,7 @@ const Article3 = () => {
             <Container className="container">
                 <article>
                     <div className="news-img">
-                        <a href="">
+                        <Button>
                             <div className="news-image">
                                 <img
                                     src="images/home_behind_blog3-960x720.jpg"
@@ -23,23 +23,23 @@ const Article3 = () => {
                                     className="news-image"
                                 />{' '}
                             </div>
-                        </a>
+                        </Button>
                     </div>
                     <div className="user-data">
                         <PersonIcon className="user-icon" />
-                        <a href="" className="user">
-                            {' '}
-                            Muffin Group
-                        </a>{' '}
+                        <Button className="user"> Muffin Group</Button>{' '}
                         <span className="data">
                             {' '}
                             at <AccessTimeIcon /> December 20, 2017
                         </span>
                     </div>
                     <div className="news-text">
-                        <a href="" className="article-title">
-                            Cum sociis natoque penatibus et ultrices volutpat
-                        </a>
+                        <div className="article-title">
+                            <p>
+                                Cum sociis natoque penatibus et ultrices
+                                volutpat
+                            </p>
+                        </div>
                         <p>
                             Lorem ipsum dolor sit amet enim. Etiam ullamcorper.
                             Suspendisse a pellentesque dui, non felis. Maecenas
@@ -55,7 +55,7 @@ const Article3 = () => {
                         </div>
                         <div className="read-mr">
                             <DescriptionIcon className="far fa-file-alt" />
-                            <a href="">Read more</a>
+                            <Button className="button-read">Read more</Button>
                         </div>
                     </div>
                 </article>

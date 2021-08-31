@@ -1,6 +1,6 @@
 .footer {
     border-top: 1px solid rgba(255, 255, 255, 0.363);
-    height: 80px;
+    
     background-color:rgba(31, 30, 28, 1);
 }
 .authors {
@@ -9,14 +9,24 @@
     font-family: 'Yantramanav', sans-serif;
     line-height: 20px;
 }
-.authors a {
+.authors button {
     color: white;
     text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+}
+.authors button:hover {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #81a029;
 }
 
-.icons {
-    padding-right: 10px;
+.social-icons button {
+    padding-right: 9px;
     color: #81a029;
+    min-width: 1px;
 }
 .icons:hover {
     color: #a9ca4d;

@@ -26,15 +26,17 @@ li {
 display: flex;
 align-items: center;
 }
-li a {
+li .list {
     color: white;
     font-family: 'Yantramanav', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 35px;
     text-decoration: none;
     border-bottom: solid 2px  transparent;
+    border-radius: 0%;
+    text-transform: capitalize;
 }
-li a:hover, .authors a:hover {
+li button:hover, .authors button:hover {
     color: #81a029;
     border-bottom: solid 2px  #81a029;
 }
