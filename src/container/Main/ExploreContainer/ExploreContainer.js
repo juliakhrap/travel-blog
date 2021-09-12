@@ -1,10 +1,10 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
-import '../../container/Grid.css'
-import './FirstContainerStyle.css'
+import './ExploreContainerStyle.css'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 import MenuBookIcon from '@material-ui/icons/MenuBook'
-import '../../container/Grid.css'
+import '../../../container/Grid.css'
+
 const FirstContainer = () => {
     return (
         <>

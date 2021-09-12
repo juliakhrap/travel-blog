@@ -1,7 +1,8 @@
 import { Button, Container } from '@material-ui/core'
 import React from 'react'
-import './LastContainerStyle.css'
+import './LinksContainerStyle.css'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
+import '../../../container/Grid.css'
 
 const LastContainer = () => {
     return (

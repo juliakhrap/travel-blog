@@ -1,7 +1,7 @@
 import { Container } from '@material-ui/core'
 import React from 'react'
 import './WYNeedContainerStyle.css'
-import '../../container/Grid.css'
+import '../../../container/Grid.css'
 
 const WYNeedContainer = () => {
     return (

@@ -3,7 +3,7 @@ import React from 'react'
 import './AlpsContainerStyle.css'
 import 'font-awesome/css/font-awesome.min.css'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
-import '../../container/Grid.css'
+import '../../../container/Grid.css'
 
 const AlpsContainer = () => {
     return (

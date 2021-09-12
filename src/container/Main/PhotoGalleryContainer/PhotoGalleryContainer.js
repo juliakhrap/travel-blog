@@ -3,7 +3,7 @@ import React from 'react'
 import './PhotoGalleryStyle.css'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary'
-import '../../container/Grid.css'
+import '../../../container/Grid.css'
 
 const PhotoGalleryContainer = () => {
     return (

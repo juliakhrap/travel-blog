@@ -3,7 +3,7 @@ import React from 'react'
 import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import './SliderContainerStyle.css'
-import '../../container/Grid.css'
+import '../../../container/Grid.css'
 
 const fadeImages = [
     'images/home_behind_pic6.jpg',

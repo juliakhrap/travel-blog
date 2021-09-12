@@ -1,19 +1,17 @@
 import React from 'react'
-import CssBaseline from '@material-ui/core/CssBaseline'
 import Header from './Header/Header'
-import FirstContainer from './Main/FirstContainer'
-import AlpsContainer from './Main/AlpsContainer'
-import ArticleContainer from './Main/ArticleContainer'
-import WYNeedContainer from './Main/WYNeedContainer'
-import SliderContainer from './Main/SliderContainer'
-import PhotoGalleryContainer from './Main/PhotoGalleryContainer'
-import LastContainer from './Main/LastContainer'
+import FirstContainer from './Main/ExploreContainer/ExploreContainer'
+import AlpsContainer from './Main/AlpsContainer/AlpsContainer'
+import WYNeedContainer from './Main/WYNeedContainer/WYNeedContainer'
+import SliderContainer from './Main/SliderContainer/SliderContainer'
+import PhotoGalleryContainer from './Main/PhotoGalleryContainer/PhotoGalleryContainer'
+import LinksContainer from './Main/LinksContainer/LinksContainer'
 import Footer from './Footer/Footer'
+import ArticlesList from '../components/Acticles/ArticlesList'
 
 const App = () => {
     return (
         <>
-            <CssBaseline />
             <div
                 style={{
                     backgroundImage: 'url(../../images/first-background.jpg)',
@@ -22,7 +20,7 @@ const App = () => {
                 <Header />
                 <FirstContainer />
             </div>
-            <CssBaseline />
+
             <div
                 style={{
                     backgroundImage: 'url(../../images/second-background.png)',
@@ -30,9 +28,9 @@ const App = () => {
                 }}
             >
                 <AlpsContainer />
-                <ArticleContainer />
+                <ArticlesList />
             </div>
-            <CssBaseline />
+
             <div
                 style={{
                     backgroundImage: 'url(../../images/third-background.png)',
@@ -40,7 +38,7 @@ const App = () => {
             >
                 <WYNeedContainer />
             </div>
-            <CssBaseline />
+
             <div
                 style={{
                     backgroundColor: 'rgba(31, 30, 28, 1)',
@@ -48,7 +46,7 @@ const App = () => {
             >
                 <SliderContainer />
                 <PhotoGalleryContainer />
-                <LastContainer />
+                <LinksContainer />
                 <Footer />
             </div>
         </>
