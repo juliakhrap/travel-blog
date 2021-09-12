@@ -8,7 +8,15 @@ import DescriptionIcon from '@material-ui/icons/Description'
 import '../../container/Grid.css'
 import { Link } from 'react-router-dom'
 
-const ArticlesListItem = ({ img, data, name, description, likes }) => {
+const ArticlesListItem = ({
+    img,
+    tag1,
+    tag2,
+    data,
+    name,
+    description,
+    likes,
+}) => {
     return (
         <>
             <div className="news-img">
@@ -22,6 +30,14 @@ const ArticlesListItem = ({ img, data, name, description, likes }) => {
                             className="news-image"
                         />
                     </div>
+                </Button>
+                <Button>
+                    {' '}
+                    <div className="tag">{tag1}</div>
+                </Button>
+                <Button>
+                    {' '}
+                    <div className="tag">{tag2}</div>
                 </Button>
             </div>
             <div className="user-data">

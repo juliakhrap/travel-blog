@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header/Header'
-import FirstContainer from './Main/ExploreContainer/ExploreContainer'
+import ExploreContainer from './Main/ExploreContainer/ExploreContainer'
 import AlpsContainer from './Main/AlpsContainer/AlpsContainer'
 import WYNeedContainer from './Main/WYNeedContainer/WYNeedContainer'
 import SliderContainer from './Main/SliderContainer/SliderContainer'
@@ -18,7 +18,7 @@ const App = () => {
                 }}
             >
                 <Header />
-                <FirstContainer />
+                <ExploreContainer />
             </div>
 
             <div

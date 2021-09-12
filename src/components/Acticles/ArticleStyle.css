@@ -111,3 +111,13 @@ article {
     padding-right: 5px;
 }
 
+.tag {
+    text-transform: lowercase;
+    color: rgb(175, 179, 170);
+    background-color: rgba(96, 100, 89, 0.397);
+    border: rgb(175, 179, 170) 1px solid;
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+

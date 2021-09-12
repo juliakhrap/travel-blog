@@ -15,10 +15,21 @@ const ArticlesList = () => {
                     </div>
                     <div className="row">
                         {ArticleArray.map(
-                            ({ id, img, data, name, description, likes }) => (
+                            ({
+                                id,
+                                img,
+                                tag1,
+                                tag2,
+                                data,
+                                name,
+                                description,
+                                likes,
+                            }) => (
                                 <Grid item xs={12} sm={6} md={4} key={id}>
                                     <ArticleListItem
                                         img={img}
+                                        tag1={tag1}
+                                        tag2={tag2}
                                         data={data}
                                         name={name}
                                         description={description}
